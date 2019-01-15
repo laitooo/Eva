@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="what is the time now"
+        android:id="@+id/messageText"
+        android:textColor="@color/Blue"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="5dp"
+        android:text="s"
+        android:layout_alignLeft="@+id/messageText"
+        android:layout_alignStart="@+id/messageText"
+        android:layout_below="@+id/messageText"
+        android:layout_alignRight="@+id/messageText"
+        android:layout_alignEnd="@+id/messageText"
+        android:background="#0000ff" />
+</RelativeLayout>
