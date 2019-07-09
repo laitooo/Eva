@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="zxc.laitooo.eva.NotesActivity"
+    tools:context="zxc.laitooo.eva.SendingActivity"
     tools:showIn="@layout/activity_notes"
     android:background="@drawable/wallpaper">
 
@@ -21,33 +21,40 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_main"
+        android:hint="Enter your message"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColorHint="@color/color_1"
+        android:textColor="@color/color_1"
         android:layout_above="@+id/recordingButton" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="start"
-        android:background="@color/Eva"
+        android:background="@drawable/edit_text_main"
         android:textColor="@color/Blue"
         android:id="@+id/recordingButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="record" />
 
-    <Button
+    <ImageButton
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="send"
-        android:background="@color/Eva"
-        android:textColor="@color/Blue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_main"
         android:id="@+id/button"
+        android:src="@drawable/icon_share"
+        android:tint="@color/color_1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="send" />
 
-    <Button
+    <!--Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,6 +65,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="save" />
+        android:onClick="save" /-->
 
 </RelativeLayout>

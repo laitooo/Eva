@@ -1,35 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="What i can do">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/do_call"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Call People" />
+
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/do_search"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Search in the web" />
+
+            <item
+                android:id="@+id/do_chat"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="Chat with you" />
+
+            <item
+                android:id="@+id/do_send"
+                android:icon="@drawable/icon_send"
+                android:title="Send Messages" />
+
+            <item
+                android:id="@+id/do_open_app"
+                android:icon="@drawable/icon_apps"
+                android:title="Open apps" />
+
+            <item
+                android:id="@+id/do_play"
+                android:icon="@android:drawable/ic_media_play"
+                android:title="Play musics" />
+
+            <item
+                android:id="@+id/do_record"
+                android:icon="@drawable/icon_mic"
+                android:title="Record Sounds" />
+
+            <item
+                android:id="@+id/do_open_file"
+                android:icon="@drawable/icon_files"
+                android:title="Open files" />
+
+            <item
+                android:id="@+id/do_wifi"
+                android:icon="@drawable/icon_wifi"
+                android:title="Open wifi" />
+
+            <item
+                android:id="@+id/do_bluetooth"
+                android:icon="@drawable/icon_bluetooth"
+                android:title="Open bluetooth" />
+
+            <item
+                android:id="@+id/do_brightness"
+                android:icon="@drawable/icon_brightness"
+                android:title="Control brightness" />
+
         </menu>
     </item>
 

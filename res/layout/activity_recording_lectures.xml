@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="first.laitooo.eva.RecordingLecturesActivity"
+    tools:context="zxc.laitooo.eva.RecordingActivity"
     android:background="@drawable/wallpaper">
 
     <android.support.design.widget.AppBarLayout
@@ -26,13 +26,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="start"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/buttonStart"
-        android:background="@color/Eva"
-        android:textColor="@color/Blue"
+        android:background="@drawable/message_user_layout"
+        android:textColor="@color/color_2"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:layout_below="@+id/view2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginLeft="15dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -41,14 +46,21 @@
         android:id="@+id/buttonStop"
         android:layout_alignTop="@+id/buttonStart"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:background="@color/Eva"
-        android:textColor="@color/Blue" />
+        android:background="@drawable/message_user_layout"
+        android:textColor="@color/color_2"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginRight="15dp"
+        />
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_record"
+        android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/buttonStart" />
 
